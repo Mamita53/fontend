@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto+Condensed:ital,wght@1,300&display=swap');
+h2
+p{
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+
+}
+h2{
+font-size:30px;
+font-weight:500;
+font-style: normal;
+}
+p{
+    font-size:14px;
+    font-weight:500;
+    font-style: normal;  
+}
+.btn1{
+    height:30px;
+    width: 100px;
+}
+
+.size{
+    width:20px;
+    height: 20px;
+}
+.text-color{
+    text-decoration: none;
+    color: white;
+}
+.margin{
+    margin-left:100px;
+    margin-right: 200px;
+}
+.logo-margin
+{
+   margin-top:5px; 
+}
+.bg-color{
+    background-color: #333d79;
+}
+.img-size{
+    width:150px;
+    height:100px;
+}
+.tu-logo{
+    width:50px;
+    height:60;
+    padding-bottom:30px;
+
+}
+.btn2-dimension{
+    width:30px;
+    height:38px;
+}
+.bgNav-color
+{
+    background-color:#f6f6f6;
+}
+.notice-margin{
+    margin-left:10px;
+}
+.carousel-inner img{
+    height:400px;
+    width: 100%;
+}
+.Grid{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    padding: 5px;
+    gap: 5px;
+}
+.wid-ass{
+    width:200px;
+    height:150px;
+}
+.nav-position{
+    position: sticky;
+    top: 0%;
+    z-index:1;
+}
+hr{
+    border:#333d79 solid 1px;
+}
